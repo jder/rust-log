@@ -49,7 +49,7 @@ std = []
 kv = []
 kv_sval = ["kv", "value-bag/sval", "sval", "sval_ref"]
 kv_std = ["std", "kv", "value-bag/error"]
-kv_serde = ["kv_std", "value-bag/serde", "serde"]
+kv_serde = ["kv", "value-bag/serde", "serde"]
 
 # Deprecated: use `kv_*` instead
 # These `*_unstable` features will be removed in a future release
